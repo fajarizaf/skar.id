@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+
+.formfield {
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.ck-focused {
+  border:none !important;
+  box-shadow:none !important;
+}
+
+input {
+    padding:10px;
+    border:none;
+    background: #f7fafc;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    width:100%;
+    font-size: 1rem;
+    color:#1a202c;
+}
+
+textarea {
+    padding:10px;
+    border:none;
+    background: #f7fafc;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    width:100%;
+    font-size: 1rem;
+    color:#1a202c;
+    height:auto;
+}
+
+button {
+    border-radius:6px;
+    background-color: #2c974b;
+    border:none;
+    color:white;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    cursor:pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+label {
+    font-family: 'Poppins';
+    color: #848c99;
+}
+
+
+option {
+    font-family: 'Poppins';
+}
+
+select {
+
+    /* styling */
+    border:2px solid #c8ced9;
+    background: #f7fafc;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 1rem;
+    color:#8e9095;
+    font-family: 'Poppins';
+    width:103%;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  
+  
+  /* arrows */
+  
+  select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, blue 50%),
+      linear-gradient(135deg, blue 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right, gray, gray);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+  }
+  
+  select.round {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.round:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      radial-gradient(gray 70%, transparent 72%);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  }
+  
+  select.minimal {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.minimal:focus {
+    background-image:
+      linear-gradient(45deg, #174ea6 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, #174ea6 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: #174ea6;
+    outline: 0;
+  }
+
+  
+  
+  select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+  
+  

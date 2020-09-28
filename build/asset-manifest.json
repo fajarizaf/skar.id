@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/skar.id/static/css/main.5f361e03.chunk.css",
+    "main.js": "/skar.id/static/js/main.694540c6.chunk.js",
+    "main.js.map": "/skar.id/static/js/main.694540c6.chunk.js.map",
+    "runtime-main.js": "/skar.id/static/js/runtime-main.5d311025.js",
+    "runtime-main.js.map": "/skar.id/static/js/runtime-main.5d311025.js.map",
+    "static/js/2.f64631a4.chunk.js": "/skar.id/static/js/2.f64631a4.chunk.js",
+    "static/js/2.f64631a4.chunk.js.map": "/skar.id/static/js/2.f64631a4.chunk.js.map",
+    "index.html": "/skar.id/index.html",
+    "precache-manifest.3c44434bddbd7028159d1e34d7dcc2b0.js": "/skar.id/precache-manifest.3c44434bddbd7028159d1e34d7dcc2b0.js",
+    "service-worker.js": "/skar.id/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/skar.id/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f64631a4.chunk.js.LICENSE.txt": "/skar.id/static/js/2.f64631a4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/skar.id/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d311025.js",
+    "static/js/2.f64631a4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.694540c6.chunk.js"
+  ]
+}

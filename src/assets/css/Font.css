@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins'; 
+}
+
+th {
+    font-family: 'Poppins';
+}
+
+td {
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Poppins';
+    color:#1a202c;
+}
+
+h3 {
+    font-size: 1.45rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:#2d3748;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:#1a202c;
+}
+strong {
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    color:#1a202c;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+ol li {
+    font-family: 'Poppins';
+    color:#1a202c;
+}
+
+ul li {
+    font-family: 'Poppins';
+    color:#1a202c;
+}
+
+
+.paragraph {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.font-1 {
+    font-family: 'PT Sans';
+    font-weight: 700;
+}
+
+.font-3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.font-4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
